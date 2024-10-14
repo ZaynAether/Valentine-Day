@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffebee; /* Light pink background */
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -9,14 +11,15 @@ body {
 }
 
 h1 {
-    color: #d5006d;
+    color: #d5006d; /* Dark pink color */
+    font-size: 2.5em;
 }
 
 .heart {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #d5006d;
+    background-color: #d5006d; /* Heart color */
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     margin: 20px auto;
     animation: heartbeat 1s infinite;
@@ -49,10 +52,4 @@ h1 {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-#surpriseImage {
-    margin-top: 20px;
-    width: 200px;
-    height: auto;
 }

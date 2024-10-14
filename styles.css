@@ -20,17 +20,20 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    margin-top: 20px;
+    margin: 10px;
 }
 
 button:hover {
     background-color: #ff1493; /* Deeper pink on hover */
 }
 
-#surprise {
-    margin-top: 20px;
-}
-
 .hidden {
     display: none;
+}
+
+#surpriseImage {
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }

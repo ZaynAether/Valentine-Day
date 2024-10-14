@@ -1,5 +1,8 @@
-document.getElementById("myButton").addEventListener("click", function() {
-    const surpriseDiv = document.getElementById("surpriseMessage");
-    surpriseDiv.textContent = "You're the peanut butter to my jelly! ❤️";
-    surpriseDiv.classList.remove("hidden");
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("surpriseButton");
+    const surpriseDiv = document.getElementById("surprise");
+
+    button.addEventListener("click", function () {
+        surpriseDiv.classList.toggle("hidden"); // Show/hide surprise
+    });
 });

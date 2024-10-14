@@ -3,17 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Valentine's Day!</title>
+    <title>Valentine's Day Surprise</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <h1>Happy Valentine’s Day!</h1>
-        <button id="surpriseButton">Click for a Surprise!</button>
+        
+        <!-- Question 1 -->
+        <div id="question1" class="question">
+            <p>Do you love me? 💖</p>
+            <button class="yesBtn">Yes, of course! 💖</button>
+            <button class="noBtn">No 😢</button>
+        </div>
+        
+        <!-- Question 2 -->
+        <div id="question2" class="question hidden">
+            <p>Would you like to go on a romantic dinner with me? 🍽️</p>
+            <button class="yesBtn">Yes, definitely! 🍷</button>
+            <button class="noBtn">Maybe another time! 😊</button>
+        </div>
+
+        <!-- Question 3 -->
+        <div id="question3" class="question hidden">
+            <p>Do you believe in love at first sight? 🌟</p>
+            <button class="yesBtn">Yes, I do! 💘</button>
+            <button class="noBtn">Not really 😅</button>
+        </div>
+
+        <!-- Question 4 -->
+        <div id="question4" class="question hidden">
+            <p>Do you think I’m romantic? 😍</p>
+            <button class="yesBtn">Absolutely! 😘</button>
+            <button class="noBtn">Not always 😆</button>
+        </div>
+
+        <!-- Question 5 -->
+        <div id="question5" class="question hidden">
+            <p>Would you trust me with a surprise? 🎁</p>
+            <button class="yesBtn">Yes, I love surprises! 🎉</button>
+            <button class="noBtn">I’m not sure 🤔</button>
+        </div>
+
+        <!-- Question 6 -->
+        <div id="question6" class="question hidden">
+            <p>If we could travel anywhere, where would it be? 🌍</p>
+            <button class="yesBtn">Paris 🗼</button>
+            <button class="noBtn">Maldives 🌴</button>
+        </div>
+
+        <!-- Question 7 -->
+        <div id="question7" class="question hidden">
+            <p>Do you think love lasts forever? ⏳</p>
+            <button class="yesBtn">Yes, it does! 🕰️</button>
+            <button class="noBtn">Not always 😢</button>
+        </div>
+
+        <!-- Question 8 -->
+        <div id="question8" class="question hidden">
+            <p>Would you hold my hand and never let go? 🤝</p>
+            <button class="yesBtn">Yes, forever! 💕</button>
+            <button class="noBtn">Maybe not always 😬</button>
+        </div>
+
+        <!-- Question 9 -->
+        <div id="question9" class="question hidden">
+            <p>Would you like to watch the sunset with me? 🌅</p>
+            <button class="yesBtn">Yes, let’s do it! 🌄</button>
+            <button class="noBtn">Maybe next time ☺️</button>
+        </div>
+
+        <!-- Question 10 -->
+        <div id="question10" class="question hidden">
+            <p>Are you ready for the surprise? 🎁</p>
+            <button id="readyBtn">Yes, show me! 🥳</button>
+        </div>
+
+        <!-- Surprise Section -->
         <div id="surprise" class="hidden">
-            <p>🎉 You've found the surprise! 🎉</p>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTimhw_UIx3e2R_s8vQQ3QjdfHZFObOekaZQg&usqp=CAU">
+            <p>🎉 Surprise! 🎉</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTimhw_UIx3e2R_s8vQQ3QjdfHZFObOekaZQg&usqp=CAU" alt="Surprise Image" id="surpriseImage">
         </div>
     </div>
 </body>
